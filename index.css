@@ -1,0 +1,79 @@
+body {
+	background: gray;
+	justify-content: center;
+	display: flex;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: gooddog-regular;
+	font-size: 118%
+}
+
+#main {
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.about {
+	text-align:center;
+	margin-top: 10pt;
+	margin-bottom: 10pt;
+}
+
+.text-about {
+	text-align:center;
+}
+
+.links_list ul {
+    list-style-type: none;
+}
+
+.img {
+	text-align: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.image {
+	width: 300px;
+    height: 300px;
+    margin: 10px;
+	margin-top: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
+}
+
+.my_links {
+	text-align: center;
+	margin: 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+
+@font-face {
+    font-family: 'gooddog-regular';
+    src: url('gooddog-regular.ttf') format('truetype')
+}
+
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
